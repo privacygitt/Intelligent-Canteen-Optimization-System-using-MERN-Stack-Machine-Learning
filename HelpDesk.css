@@ -1,0 +1,355 @@
+/* HelpDesk.css */
+
+/* Base styles */
+.max-w-4xl {
+    max-width: 56rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Header styles */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-10 {
+    margin-bottom: 2.5rem;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .text-gray-800 {
+    color: #2d3748;
+  }
+  
+  .mb-3 {
+    margin-bottom: 0.75rem;
+  }
+  
+  .text-gray-600 {
+    color: #4a5568;
+  }
+  
+  /* Search bar styles */
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .pl-12 {
+    padding-left: 3rem;
+  }
+  
+  .border {
+    border-width: 1px;
+  }
+  
+  .border-gray-300 {
+    border-color: #e2e8f0;
+  }
+  
+  .focus\:outline-none:focus {
+    outline: none;
+  }
+  
+  .focus\:ring-2:focus {
+    box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+  }
+  
+  .focus\:ring-blue-500:focus {
+    --ring-color: #3b82f6;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .left-4 {
+    left: 1rem;
+  }
+  
+  .top-4 {
+    top: 1rem;
+  }
+  
+  .text-gray-400 {
+    color: #a0aec0;
+  }
+  
+  /* FAQ container */
+  .mt-8 {
+    margin-top: 2rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* FAQ item styles */
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .bg-blue-50 {
+    background-color: #ebf5ff;
+  }
+  
+  .border-l-4 {
+    border-left-width: 4px;
+  }
+  
+  .border-blue-500 {
+    border-color: #3b82f6;
+  }
+  
+  .bg-gray-50 {
+    background-color: #f9fafb;
+  }
+  
+  .hover\:bg-gray-100:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .mr-3 {
+    margin-right: 0.75rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  
+  /* FAQ answer styles */
+  .border-l {
+    border-left-width: 1px;
+  }
+  
+  .border-r {
+    border-right-width: 1px;
+  }
+  
+  .border-b {
+    border-bottom-width: 1px;
+  }
+  
+  .rounded-b-lg {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  
+  .text-gray-700 {
+    color: #374151;
+  }
+  
+  /* Contact support section */
+  .mt-10 {
+    margin-top: 2.5rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .bg-blue-600 {
+    background-color: #2563eb;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .hover\:bg-blue-700:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .transition-colors {
+    transition-property: color, background-color, border-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  
+  /* Icon colors */
+  .text-green-500 {
+    color: #10b981;
+  }
+  
+  .text-blue-500 {
+    color: #3b82f6;
+  }
+  
+  .text-purple-500 {
+    color: #8b5cf6;
+  }
+  
+  .text-red-500 {
+    color: #ef4444;
+  }
+  
+  .text-yellow-500 {
+    color: #f59e0b;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .p-4.bg-white.border-l.border-r.border-b {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .max-w-4xl {
+      width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    
+    .text-3xl {
+      font-size: 1.5rem;
+    }
+    
+    .p-6 {
+      padding: 1rem;
+    }
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #c5c5c5;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a0a0a0;
+  }
+  
+  /* Focus styles for accessibility */
+  *:focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+  }
+  
+  /* Custom styles for the accordion */
+  .accordion-item {
+    transition: all 0.3s ease;
+  }
+  
+  .accordion-item:hover {
+    transform: translateX(2px);
+  }
+  
+  /* Button hover effect */
+  button {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+  }
+  
+  button:hover:after {
+    animation: ripple 1s ease-out;
+  }
+  
+  @keyframes ripple {
+    0% {
+      transform: scale(0, 0);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(20, 20);
+      opacity: 0;
+    }
+  }

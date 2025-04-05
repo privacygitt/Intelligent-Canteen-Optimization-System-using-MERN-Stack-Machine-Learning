@@ -1,101 +1,70 @@
-# Intelligent-Canteen-Optimization-System-using-MERN-Stack-Machine-Learning
-A smart canteen management system using MERN stack and Machine Learning. Features include real-time order tracking, demand prediction with Prophet, item clustering via K-Means, and personalized food recommendations to enhance user experience and optimize canteen operations.
-# Intelligent Canteen Optimization System 🍽️🤖
+# Getting Started with Create React App
 
-An advanced canteen management platform built with the **MERN Stack (MongoDB, Express.js, React.js, Node.js)** and integrated **Machine Learning models** to automate, optimize, and enhance food services for both users and administrators.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 🚀 Features
+In the project directory, you can run:
 
-### 🔹 User Features
-- Dynamic Menu Display with Real-Time Stock Updates
-- Smart Food Recommendations Based on Order History
-- Order Placement with Quantity Selection
-- Order Summary & UPI-based Payment Flow
-- Live Order Status Tracking (Accepted → Preparing → Ready)
-- Related Food Item Suggestions
-- Pre-ordering Option for Time-based Pickup
+### `npm start`
 
-### 🔹 Admin Features
-- Admin Authentication & Dashboard
-- Order Management: Accept, Prepare & Complete
-- Demand Prediction (Prophet Model)
-- Item Clustering (K-Means ML)
-- Inventory & Stock Automation
-- Analytics:
-  - Daily/Weekly/Monthly Sales Reports
-  - Most & Least Ordered Items
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🛠️ Tech Stack
+### `npm test`
 
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Machine Learning:** Python (Prophet, K-Means), Jupyter Notebooks
-- **Real-Time Updates:** Socket.IO
-- **Payment:** UPI Simulation (Custom Flow)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## 📦 Folder Structure
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 📊 ML Models Used
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **Prophet**: Forecast food demand by day/week/month to reduce waste
-- **K-Means Clustering**: Group food items based on popularity, helping in stock planning and recommendations
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 🔧 Installation Guide
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1. Clone the repository:
-2. Navigate to the backend:
-3. Navigate to the frontend:
-4. Start backend and frontend servers:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
----
+## Learn More
 
-## 📸 Screenshots
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- User Menu Page
-  ![image](https://github.com/user-attachments/assets/f2100435-50a3-4f98-998f-42e8f74c37e6)
-- Admin Dashboard
-- ![image](https://github.com/user-attachments/assets/dd4a9348-9b25-42bc-9932-09ed1484bfe6)
-- ![image](https://github.com/user-attachments/assets/8187658f-5168-441c-a284-5c91e7c5258a)
-- Cart Page
-- ![image](https://github.com/user-attachments/assets/3917d86d-bcb1-4a52-89b1-175e64ce589c)
-- Payment Page
-- ![image](https://github.com/user-attachments/assets/6e214d7f-af01-404b-bed4-ba55aa71e431)
-- ![image](https://github.com/user-attachments/assets/175f6e11-d6b6-4c04-ad7c-c65de45c17a6)
-- Order Tracking
-- ![image](https://github.com/user-attachments/assets/7797e6c1-f96d-42d0-b409-e3fdd41c497b)
-- ![image](https://github.com/user-attachments/assets/18274ff2-cff2-476d-96a2-659d33fa968b)
-- Ordertracking Page
-- ![image](https://github.com/user-attachments/assets/51bfb191-6f02-46ae-9bf7-c705e8118c15)
-- ![image](https://github.com/user-attachments/assets/faf263e0-a9dd-4e8d-8148-07b930ee9283)
-- Recommendation System
-- ![image](https://github.com/user-attachments/assets/f535203c-c066-4b05-a241-917d73455160)
-- ![image](https://github.com/user-attachments/assets/1a78520d-c474-4cc4-9854-0c4256106fb2)
-- Menu Management
-- ![image](https://github.com/user-attachments/assets/d68cfc07-ce79-4947-ade1-4d39faecea3d)
-- Home page
-- ![image](https://github.com/user-attachments/assets/98f2aff4-2e68-4b55-ae61-dfca1ee14a0d)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## 👨‍💻 Developed By
+### Code Splitting
 
-Damarasinghu Vinay Kumar 
-Final Year CSE Student | NSRIT  
-Email: damarasinghuvinay@gmail.com 
-GitHub: https://github.com/privacygitt
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
----
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
